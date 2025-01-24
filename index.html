@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galileo e il codice dell'Universo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #4CAF50;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+
+    #quote {
+      display: none;
+    }
+
+    #dialogo, #processi, #contesto, #strumenti {
+      display: block;
+      margin-top: 20px;
+    }
+
+    .button-container {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Galileo e il codice dell'Universo</h1>
+    <nav>
+      <ul>
+        <li><a href="#vita">Vita di Galileo</a></li>
+        <li><a href="#opere">Opere</a></li>
+        <li><a href="#pensiero">Pensiero Filosofico</a></li>
+        <li><a href="#dialogoBtn">Dialogo sui due massimi sistemi</a></li>
+        <li><a href="#interattivo">Interattività</a></li>
+        <li><a href="#strumentiBtn">Strumenti Scientifici</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="vita">
+      <h2>Vita di Galileo Galilei</h2>
+      <article>
+        <h3>Nascita e formazione (1564-1581)</h3>
+        <p>Galileo Galilei nacque il 15 febbraio 1564 a Pisa, da Vincenzo Galilei, un musicista e teorico della musica, e Giulia Ammannati. Sin da giovane mostrò interesse per le scienze e le arti...</p>
+      </article>
+      <article>
+        <h3>Carriera accademica e prime scoperte (1589-1609)</h3>
+        <p>Nel 1589 ottenne la cattedra di matematica all’Università di Pisa. Durante questo periodo, Galileo cominciò a mettere in discussione le teorie aristoteliche...</p>
+      </article>
+      <article>
+        <h3>Le scoperte astronomiche e il conflitto con la Chiesa (1610-1633)</h3>
+        <p>Nel 1610 pubblicò il Sidereus Nuncius, in cui descriveva le sue osservazioni della Luna, dei satelliti di Giove, delle fasi di Venere...</p>
+      </article>
+      <article>
+        <h3>Gli ultimi anni (1633-1642)</h3>
+        <p>Durante gli anni di arresto domiciliare nella sua villa ad Arcetri, vicino Firenze, Galileo continuò a lavorare. Scrisse il Discorsi e dimostrazioni matematiche intorno a due nuove scienze...</p>
+      </article>
+    </section>
+
+    <section id="opere">
+      <h2>Opere di Galileo Galilei</h2>
+      <article>
+        <h3>"Sidereus Nuncius" (1610)</h3>
+        <p>Pubblicazione fondamentale basata sulle sue osservazioni telescopiche...</p>
+      </article>
+      <article>
+        <h3>"Dialogo sopra i due massimi sistemi del mondo" (1632)</h3>
+        <p>Capolavoro in forma di dialogo, in cui tre personaggi discutono dei sistemi tolemaico e copernicano...</p>
+      </article>
+      <article>
+        <h3>"Discorsi e dimostrazioni matematiche intorno a due nuove scienze" (1638)</h3>
+        <p>Ultima e più importante opera scientifica, scritta durante gli arresti domiciliari...</p>
+      </article>
+    </section>
+
+    <section id="pensiero">
+      <h2>Pensiero Filosofico e Scientifico</h2>
+      <p>Galileo è spesso definito il padre della scienza moderna per il suo approccio empirico e basato sulla matematica...</p>
+    </section>
+
+    <section id="interattivo">
+      <h2>Interattività</h2>
+      <p>Clicca sul bottone per scoprire una citazione di Galileo:</p>
+      <button id="quoteBtn">Mostra citazione</button>
+      <p id="quote">"La natura è il libro scritto in linguaggio matematico."</p>
+    </section>
+
+    <section class="button-container">
+      <button id="dialogoBtn">Esplora il Dialogo sopra i due massimi sistemi</button>
+      <button id="strumentiBtn">Scopri gli Strumenti Scientifici</button>
+    </section>
+
+    <section id="dialogo">
+      <h2>Dialogo sopra i due massimi sistemi del mondo</h2>
+      <p><strong>Contesto storico</strong>: Il "Dialogo sopra i due massimi sistemi del mondo" fu scritto tra il 1624 e il 1630, ma pubblicato nel 1632. Questo trattato esplora il confronto tra il sistema eliocentrico di Copernico e il sistema geocentrico, sostenuto dalla Chiesa.</p>
+      <p><strong>Figura storica di Papa Urbano VIII</strong>: Urbano VIII, pur essendo un papa progressista e curioso delle scienze, alla fine appoggiò la censura dell'opera, che venne vista come una sfida all'autorità ecclesiastica.</p>
+      <p><strong>Contesto religioso</strong>: Durante il periodo della Controriforma, la Chiesa sostenne il sistema geocentrico, e Galileo dovette affrontare la censura e il giudizio ecclesiastico.</p>
+    </section>
+
+    <section id="processi">
+      <h2>I Processi Galileiani</h2>
+      <p>I processi contro Galileo non furono limitati solo alla sua opera "Sidereus Nuncius", ma anche al "Dialogo sopra i due massimi sistemi". Galileo, pur essendo inizialmente un osservatore passivo, divenne un difensore convinto della teoria copernicana. Il processo culminò nel 1633, con la sua abiura per evitare la condanna al rogo, come nel caso di Giordano Bruno.</p>
+    </section>
+
+    <section id="contesto">
+      <h2>Contesto Storico e Scientifico</h2>
+      <p>Il contesto in cui Galileo si trovò a operare era segnato dalla Controriforma, e le sue scoperte, pur essendo fondamentali per la scienza moderna, erano percepite come minacce all'ordine stabilito. La Chiesa appoggiava ancora il sistema geocentrico, e Galileo dovette affrontare la censura e il giudizio ecclesiastico.</p>
+    </section>
+
+    <!-- Nuova sezione per Strumenti Scientifici -->
+    <section id="strumenti">
+      <h2>Strumenti Scientifici di Galileo</h2>
+      <article>
+        <h3>Il Modello del Pendolo dell'Orologio (1877)</h3>
+        <p>Il modello dell'applicazione del pendolo all'orologio, costruito nel 1877 dall'orologiaio fiorentino Eustachio Porcellotti, si basa su un disegno dell'invenzione galileiana realizzato da Vincenzo Viviani e Vincenzo Galilei. Il modello è funzionante e si utilizza per confermare la legge galileiana di caduta dei corpi e il principio dell'isocronismo dei pendoli di eguale lunghezza.</p>
+        <p>L'esperimento consiste nel far scendere una pallina dal vertice del piano inclinato mentre il pendolo oscilla. Ad ogni oscillazione, la pallina colpisce una campanella disposta a distanze crescenti, misurando la crescita degli spazi percorsi dalla pallina e percependo acusticamente l'accelerazione costante della caduta.</p>
+      </article>
+      <article>
+        <h3>Il Giovilabio</h3>
+        <p>Il Giovilabio, uno strumento in ottone di autore ignoto, è legato agli studi di Galileo sui satelliti di Giove, la cui scoperta era stata annunciata nel 1610. Galileo utilizzò le eclissi dei satelliti per determinare la longitudine e creò tavole per i moti medi dei satelliti...</p>
+      </article>
+      <article>
+        <h3>La Leva di Secondo Genere</h3>
+        <p>Proveniente dalle collezioni lorenesi, la leva di secondo genere si basa sul modello di Willem Jacob 's Gravesande. Essa consiste in un'asta con contrappeso e tacche per regolare il fulcro...</p>
+      </article>
+      <article>
+        <h3>La Vite di Archimede</h3>
+        <p>La vite di Archimede è un apparecchio basato sul principio ideato dallo scienziato. È composta da una lamina di ottone incernierata su una base di legno, con inclinazione regolabile tramite una staffa mobile...</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Galileo e il codice dell'Universo</p>
+  </footer>
+
+  <script>
+    document.getElementById('quoteBtn').addEventListener('click', function() {
+      const quote = document.getElementById('quote');
+      if (quote.style.display === "none") {
+        quote.style.display = "block";
+      } else {
+        quote.style.display = "none";
+      }
+    });
+
+    document.getElementById('dialogoBtn').addEventListener('click', function() {
+      const sections = ['dialogo', 'processi', 'contesto'];
+      sections.forEach(function(id) {
+        const section = document.getElementById(id);
+        section.style.display = section.style.display === "none" ? "block" : "none";
+      });
+    });
+
+    document.getElementById('strumentiBtn').addEventListener('click', function() {
+      const section = document.getElementById('strumenti');
+      section.style.display = section.style.display === "none" ? "block" : "none";
+    });
+  </script>
+</body>
+</html>
